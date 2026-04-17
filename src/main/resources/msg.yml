@@ -1,0 +1,6 @@
+msgs:
+  prompt: "&bEnter code to join the server."
+  success: "&aCorrect code. You joined the server."
+  incorrect: "&4Incorrect code. Try again."
+  no-commands: "&cYou cannot use commands before entering the code!"
+  security-kick: "&4CodeAuth Plugin Exception: &cMovement bypass attempt detected!"

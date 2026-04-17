@@ -1,0 +1,6 @@
+name: CodeAuth
+version: '${version}'
+
+main: net.koteczekui.codeAuth.CodeAuth
+api-version: '26.1.2'
+load: POSTWORLD

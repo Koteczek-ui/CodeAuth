@@ -1,0 +1,7 @@
+codes: # Standard code format: XXXXX-XXXXX
+  - XXXXX-XXXXX
+  - XXXXX-XXXXX
+  - XXXXX-XXXXX # One code use -> one code remove
+
+behaviour:
+  allow-movement: true
