@@ -79,6 +79,7 @@ public final class CodeAuth extends JavaPlugin implements Listener {
 
         BukkitTask task = Bukkit.getScheduler().runTaskTimer(this, () -> {
             if (unauthenticated.contains(uuid)) {
+                reloadConfig();
                 player.sendMessage(color(msgLoader.getMsg("prompt")));
                 logger.info("[PROMPT] Reminder sent to " + player.getName());
             }
